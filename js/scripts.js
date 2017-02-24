@@ -19,8 +19,8 @@ var pingPong = function(numberInput) {
       array.splice(i, 1, negative + element);  //adds "-" to remaining numbers if the input was negative
     }
   });
-  
-  var result = numberArray;
+
+  var result = numberArray.join(", ");
   return result;
 }
 
