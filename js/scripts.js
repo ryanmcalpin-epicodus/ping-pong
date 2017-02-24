@@ -32,5 +32,9 @@ $(function() {
     var numberInput = $("#input").val();
     var result = pingPong(numberInput);
     $("#result").text(result);
+    $("#result").slideDown();
+  });
+  $("input").click(function(){
+      $("#result").slideUp();
   });
 });
