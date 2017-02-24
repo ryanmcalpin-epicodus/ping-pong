@@ -46,4 +46,7 @@ $(function() {
   $("input").click(function(){
       $("#result").slideUp();
   });
+  $("input").change(function(){
+      $("#result").slideUp();
+  });
 });
