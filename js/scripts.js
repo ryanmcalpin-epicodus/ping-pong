@@ -8,6 +8,7 @@ var pingPong = function(numberInput) {
   for (var i = 0; i < numberInput; i++) {   // creates array from 1 to given number
     numberArray.push(i + 1);
   }
+
   numberArray.forEach(function(element, i, array) { // replaces multiples of 15, 3, and 5 with "ping-pong", "ping", and "pong", respectively
     if (element % 15 === 0) {
       array.splice(i, 1, "ping-pong");
@@ -21,6 +22,7 @@ var pingPong = function(numberInput) {
   });
 
   var result = numberArray.join(", ");
+
   return result;
 }
 

@@ -1,0 +1,13 @@
+.container-fluid {
+  text-align: center;
+}
+
+ol {
+  list-style-position:inside;
+  padding-right: 30px;
+}
+
+button {
+  width: 40%;
+  max-width: 250px;
+}
