@@ -19,27 +19,27 @@ Download or clone directory. Move to the directory in the command line and open 
 
 ## Specifications
 
-##### Counts from 1 to the given number
+#### Counts from 1 to the given number
   * Input: 3
   *  Output: [1, 2, 3]
 
-##### Replaces the number 3 with "ping"
+#### Replaces the number 3 with "ping"
  * Input: 3
  * Output: [1, 2, "ping"]
 
-##### Replaces all numbers divisible by 3 with "ping"
+#### Replaces all numbers divisible by 3 with "ping"
   * Input: 6
   * Output: [1, 2, "ping", 4, 5, "ping"]
 
-##### Replaces the number 5 with "pong"
+#### Replaces the number 5 with "pong"
   * Input: 5
   * Output: [1, 2, "ping", 4, "pong"]
 
-##### Replaces all numbers divisible by 5 with "pong"
+#### Replaces all numbers divisible by 5 with "pong"
   * Input: 10
   * Output: [1, 2, "ping", 4, "pong", "ping", 7, 8, "ping", "pong"]
 
-##### Replaces all numbers divisible by both 3 and 5 (by 15) with "ping-pong"
+#### Replaces all numbers divisible by both 3 and 5 (by 15) with "ping-pong"
   * Input: 15
   * Output: [1, 2, "ping", 4, "pong", "ping", 7, 8, "ping", "pong", 11, "ping", 13, 14, "ping-pong"]
 
