@@ -1,10 +1,13 @@
 var pingPong = function(numberInput) {
+  if (numberInput < 0) { //convert negative number input to positive
+    numberInput *= -1;
+  }
   var numberArray = [];
   for (var i = 0; i < numberInput; i++) {   // creates array from 1 to given number
     numberArray.push(i + 1);
   }
   // debugger;
-  numberArray.forEach(function(element, i, array) {
+  numberArray.forEach(function(element, i, array) { // replaces multiples of 15, 3, and 5 with "ping-pong", "ping", and "pong", respectively
     if (element % 15 === 0) {
       array.splice(i, 1, "ping-pong");
     } else if (element % 3 === 0) {
