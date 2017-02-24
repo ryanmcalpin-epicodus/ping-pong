@@ -12,7 +12,7 @@ Download or clone directory. Move to the directory in the command line and open 
 * Atom
 * Git
 * Javascript
-* Jquery
+* Jquery<br/>
 ## Specifications
 #### Counts from 1 to the given number
 * Input: 3
@@ -31,7 +31,7 @@ Download or clone directory. Move to the directory in the command line and open 
 * Output: [1, 2, "ping", 4, "pong", "ping", 7, 8, "ping", "pong"]
 #### Replaces all numbers divisible by both 3 and 5 (by 15) with "ping-pong"
 * Input: 15
-* Output: [1, 2, "ping", 4, "pong", "ping", 7, 8, "ping", "pong", 11, "ping", 13, 14, "ping-pong"]
+* Output: [1, 2, "ping", 4, "pong", "ping", 7, 8, "ping", "pong", 11, "ping", 13, 14, "ping-pong"]<br/>
 ## Legal
 Copyright (c) 2017 Copyright Ryan McAlpin All Rights Reserved.<br/>
 This webpage is licensed under the MIT license.
