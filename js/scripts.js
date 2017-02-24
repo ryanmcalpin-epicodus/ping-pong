@@ -1,5 +1,10 @@
 var pingPong = function(numberInput) {
-  var result = numberInput;
+  var numberArray = [];
+  for (var i = 0; i < numberInput; i++) {
+    numberArray.push(i + 1);
+  }
+
+  var result = numberArray;
   return result;
 }
 
