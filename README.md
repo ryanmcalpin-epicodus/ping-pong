@@ -3,16 +3,16 @@ Projoct for Epicodus, demonstrating proficiency in Behavior-driven development, 
 #### By Ryan McAlpin
 ## Description
 This is the third Friday solo project for Epicodus's Intro to Programming. It takes a number from the user and displays a list counting from 1 to the given number, replacing multiples of 3 with "ping", multiples of 5 with "pong", and multiples of 15 with "ping-pong". A negative number returns a count from -1 down to the given number.
-## Setup
+##Setup
 Download or clone directory. Move to the directory in the command line and open index.html. Here is the <a href="https://ryanmcalpin.github.io/ping-pong/">link</a>.
 ## Technologies Used
-* HTML
-* CSS
-* Bootstrap
-* Atom
-* Git
-* Javascript
-* Jquery</br>
+#### * HTML
+#### * CSS
+#### * Bootstrap
+#### * Atom
+#### * Git
+#### * Javascript
+#### * Jquery
 ## Specifications
 ### Counts from 1 to the given number
 #### * Input: 3
