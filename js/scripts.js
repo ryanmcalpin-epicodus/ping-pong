@@ -5,7 +5,7 @@ var pingPong = function(numberInput) {
   }
   // debugger;
   numberArray.forEach(function(element, i, array) {
-    if (element === 3) {
+    if (element % 3 === 0) {
       array.splice(i, 1, "ping");
     }
   });
