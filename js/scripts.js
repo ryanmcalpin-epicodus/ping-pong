@@ -1,5 +1,4 @@
 var pingPong = function(numberInput) {
-  debugger;
   if (!numberInput) {           //checks for empty input field
     var result = "Please enter a whole number. You can even try negative numbers!";
   } else if (numberInput == 0) { //checks for 0
@@ -8,7 +7,7 @@ var pingPong = function(numberInput) {
     var negative = "";
     if (numberInput < 0) { //convert negative number input to positive
       numberInput *= -1;
-      negative = "-"
+      negative = "-";
     }
 
     var numberArray = [];
@@ -27,10 +26,8 @@ var pingPong = function(numberInput) {
         array.splice(i, 1, negative + element);  //adds "-" to remaining numbers if the input was negative
       }
     });
-
     var result = numberArray.join(", ");
   }
-
   return result;
 }
 
@@ -44,9 +41,6 @@ $(function() {
   });
 
   $("input").click(function(){
-      $("#result").slideUp();
-  });
-  $("input").change(function(){
       $("#result").slideUp();
   });
 });
